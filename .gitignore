@@ -1,0 +1,46 @@
+# Perl
+*.swp
+*.swo
+*~
+blib/
+_build/
+Build
+Build.bat
+MYMETA.json
+MYMETA.yml
+Makefile
+Makefile.old
+pm_to_blib
+*.bak
+*.orig
+*.rej
+
+# Carton / cpanm
+.carton/
+local/
+.cpanm/
+cpanfile.snapshot
+
+# Logs / runtime
+*.log
+*.pid
+*.sock
+*.lock
+
+# Coverage / profiling
+cover_db/
+nytprof.out
+Devel-Cover-*
+
+# Local lab harness (machine-specific, generated per example; not example code)
+app.conf
+chroot-app-restart.sh
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db

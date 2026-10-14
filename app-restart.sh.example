@@ -1,0 +1,104 @@
+#!/bin/bash
+set -euo pipefail
+
+# Portable process manager for a single example app.
+#
+# Copy this file to "app-restart.sh" inside the example directory, copy
+# app.conf.example to "app.conf" and edit it, then:
+#
+#     chmod +x app-restart.sh
+#     ./app-restart.sh start
+#
+# Commands: start | stop | restart | status | test   (default: restart)
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# ---- config (edit app.conf) ----
+source "${SCRIPT_DIR}/app.conf"     # sets APP_DIR, PORT
+
+APP_NAME="$(basename "$APP_DIR")"
+PID_FILE="/tmp/${APP_NAME}.pid"
+LOG_FILE="/tmp/${APP_NAME}.log"
+
+do_stop() {
+    if [ -f "$PID_FILE" ]; then
+        kill "$(cat "$PID_FILE")" 2>/dev/null || true
+        rm -f "$PID_FILE"
+    fi
+    # make sure nothing else is holding the port
+    fuser -k -TERM "$PORT/tcp" 2>/dev/null || true
+    sleep 1
+}
+
+do_start() {
+    if [ -f "$PID_FILE" ] && kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
+        echo "Already running (PID: $(cat "$PID_FILE"))"
+        return 0
+    fi
+
+    : > "$LOG_FILE"
+
+    cd "$APP_DIR"
+    PERL5OPT='-Ilib -CSDA' nohup \
+        plackup -s Hyperman --workers 1 -p "$PORT" app.psgi \
+        < /dev/null > "$LOG_FILE" 2>&1 &
+    echo $! > "$PID_FILE"
+
+    sleep 3
+
+    local PID HTTP_CODE
+    PID=$(cat "$PID_FILE" 2>/dev/null || echo "")
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+        "http://127.0.0.1:$PORT/api/ping" 2>/dev/null || true)
+    HTTP_CODE=${HTTP_CODE:-000}
+
+    # Success = health check returned 200 AND the process we started is alive
+    if [ "$HTTP_CODE" = "200" ] && kill -0 "$PID" 2>/dev/null; then
+        echo "Started (PID: $PID)"
+    else
+        echo "Failed (HTTP: $HTTP_CODE)"
+        cat "$LOG_FILE"
+        exit 1
+    fi
+}
+
+case "${1:-restart}" in
+    status)
+        if [ -f "$PID_FILE" ] && kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
+            echo "Running (PID: $(cat "$PID_FILE"))"
+        else
+            echo "Stopped"
+        fi
+        ;;
+    start)
+        do_start
+        ;;
+    stop)
+        do_stop
+        echo "Stopped"
+        ;;
+    restart)
+        do_stop
+        do_start
+        ;;
+    test)
+        if [ ! -f "$PID_FILE" ] || ! kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
+            echo "Server not running. Start it first."
+            exit 1
+        fi
+
+        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            "http://127.0.0.1:$PORT/api/ping" 2>/dev/null || echo "000")
+        if [ "$HTTP_CODE" != "200" ]; then
+            echo "Server not responding (HTTP: $HTTP_CODE)"
+            exit 1
+        fi
+
+        cd "$APP_DIR"
+        PERL5LIB=lib PERL5OPT='-CSDA' prove -v t/
+        ;;
+    *)
+        echo "Usage: $0 [start|stop|restart|status|test]"
+        exit 1
+        ;;
+esac

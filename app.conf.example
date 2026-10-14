@@ -1,0 +1,11 @@
+# app.conf - local runtime config for an example app.
+#
+# Copy this file to "app.conf" inside the example directory you want to run,
+# then adjust the values for your machine. Not versioned (see .gitignore).
+
+# Directory containing app.psgi (the example root)
+APP_DIR="/path/to/example-N"
+
+# TCP port the API listens on. Give each example a different port
+# (example-1 -> 3011, example-2 -> 3012, ...) so they can run at once.
+PORT=3011
