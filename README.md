@@ -57,6 +57,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 44 | URL 단축 + 리다이렉트 | `example-44/` |
 | 45 | 파일 다운로드 | `example-45/` |
 | 46 | 원시 바이트 응답 (이미지) | `example-46/` |
+| 47 | 레이트 리밋 (429) | `example-47/` |
 
 ## Usage for AI
 
