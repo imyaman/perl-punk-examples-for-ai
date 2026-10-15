@@ -112,6 +112,61 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 99 | 기능 플래그 (비율 배포) | `example-99/` |
 | 100 | 자기서술 API (OpenAPI/스모크) | `example-100/` |
 
+## 주제별 분류
+
+100개 예제를 주제별로 묶었습니다. 각 항목은 해당 예제 번호로 이동하는 링크입니다.
+
+### 라우팅 & 요청 처리
+[2](example-2/) [6](example-6/) [7](example-7/) [8](example-8/) [9](example-9/) [10](example-10/) [37](example-37/) [42](example-42/)
+
+### 앱 구조 & 확장 (hooks / middleware / plugin)
+[11](example-11/) [12](example-12/) [13](example-13/) [14](example-14/) [15](example-15/)
+
+### 에러 & 검증
+[3](example-3/) [33](example-33/) [38](example-38/) [51](example-51/) [54](example-54/)
+
+### 데이터 CRUD & 모델링
+[1](example-1/) [39](example-39/) [44](example-44/) [48](example-48/) [50](example-50/) [59](example-59/) [63](example-63/) [67](example-67/) [71](example-71/) [74](example-74/) [91](example-91/)
+
+### 인증 & 접근 제어
+[4](example-4/) [16](example-16/) [19](example-19/) [20](example-20/) [41](example-41/) [73](example-73/) [78](example-78/) [82](example-82/)
+
+### 보안 (서명 / 쿠키 / CSRF / CORS)
+[17](example-17/) [18](example-18/) [21](example-21/) [30](example-30/) [61](example-61/) [65](example-65/) [83](example-83/)
+
+### 콘텐츠 협상 & 표현 형식
+[31](example-31/) [36](example-36/) [40](example-40/) [55](example-55/) [66](example-66/) [72](example-72/) [95](example-95/)
+
+### 캐싱 & 조건부 요청
+[32](example-32/) [62](example-62/) [70](example-70/)
+
+### 페이지네이션 & 정렬 & 필터
+[34](example-34/) [35](example-35/) [52](example-52/) [68](example-68/) [88](example-88/)
+
+### 검색 & 색인
+[75](example-75/) [76](example-76/) [85](example-85/)
+
+### 파일 & 업로드 / 다운로드
+[5](example-5/) [23](example-23/) [45](example-45/) [46](example-46/) [58](example-58/) [80](example-80/) [81](example-81/)
+
+### 비동기 & 실시간
+[26](example-26/) [27](example-27/) [28](example-28/) [29](example-29/) [97](example-97/)
+
+### 관측성 & 운영
+[57](example-57/) [60](example-60/) [64](example-64/) [77](example-77/) [87](example-87/) [93](example-93/) [98](example-98/) [99](example-99/)
+
+### 복원력 & 동시성
+[22](example-22/) [43](example-43/) [53](example-53/) [79](example-79/) [84](example-84/) [86](example-86/) [90](example-90/) [96](example-96/)
+
+### 문서 · 버전 & 자기서술
+[24](example-24/) [25](example-25/) [49](example-49/) [56](example-56/) [92](example-92/) [100](example-100/)
+
+### 보호 & 제한 (레이트 리밋 / 쿼터)
+[47](example-47/) [89](example-89/) [94](example-94/)
+
+### 도메인 & 유틸
+[69](example-69/)
+
 ## Usage for AI
 
 You are welcome to **collect these examples and learn from them** — training,
