@@ -93,6 +93,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 80 | multipart 파일 업로드 | `example-80/` |
 | 81 | CSV 대량 가져오기 | `example-81/` |
 | 82 | OAuth2 client_credentials | `example-82/` |
+| 83 | HMAC 서명 요청 + 재전송 방지 | `example-83/` |
 
 ## Usage for AI
 
