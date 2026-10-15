@@ -109,6 +109,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 96 | 서킷 브레이커 | `example-96/` |
 | 97 | 롱폴링 | `example-97/` |
 | 98 | W3C traceparent 전파 | `example-98/` |
+| 99 | 기능 플래그 (비율 배포) | `example-99/` |
 
 ## Usage for AI
 
