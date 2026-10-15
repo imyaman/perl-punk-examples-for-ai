@@ -78,6 +78,8 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 65 | 서명된 만료 다운로드 링크 | `example-65/` |
 | 66 | Accept-Language 협상 (i18n) | `example-66/` |
 | 67 | PUT 업서트 (201/200) | `example-67/` |
+| 68 | HEAD + 페이지네이션 메타 | `example-68/` |
+| 69 | 금액 계산 (정수 센트) | `example-69/` |
 
 ## Usage for AI
 
