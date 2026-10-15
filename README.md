@@ -95,6 +95,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 82 | OAuth2 client_credentials | `example-82/` |
 | 83 | HMAC 서명 요청 + 재전송 방지 | `example-83/` |
 | 84 | 작업 큐 + 워커 + 재시도 | `example-84/` |
+| 85 | 역색인 전문 검색 | `example-85/` |
 
 ## Usage for AI
 
