@@ -61,6 +61,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 48 | 벌크 연산 (207) | `example-48/` |
 | 49 | API 버저닝 (URL/Accept) | `example-49/` |
 | 50 | JSON Merge Patch (RFC 7396) | `example-50/` |
+| 51 | 입력 검증 (422) | `example-51/` |
 
 ## Usage for AI
 
