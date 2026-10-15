@@ -105,6 +105,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 92 | 경로 기반 API 버전관리 | `example-92/` |
 | 93 | 구조화된 에러 처리 + 상관관계 ID | `example-93/` |
 | 94 | 슬라이딩 윈도우 레이트 리밋 | `example-94/` |
+| 95 | 콘텐츠 협상 (JSON/CSV/텍스트) | `example-95/` |
 
 ## Usage for AI
 
