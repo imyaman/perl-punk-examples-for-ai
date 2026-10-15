@@ -108,6 +108,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 95 | 콘텐츠 협상 (JSON/CSV/텍스트) | `example-95/` |
 | 96 | 서킷 브레이커 | `example-96/` |
 | 97 | 롱폴링 | `example-97/` |
+| 98 | W3C traceparent 전파 | `example-98/` |
 
 ## Usage for AI
 
