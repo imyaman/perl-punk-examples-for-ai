@@ -59,6 +59,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 46 | 원시 바이트 응답 (이미지) | `example-46/` |
 | 47 | 레이트 리밋 (429) | `example-47/` |
 | 48 | 벌크 연산 (207) | `example-48/` |
+| 49 | API 버저닝 (URL/Accept) | `example-49/` |
 
 ## Usage for AI
 
