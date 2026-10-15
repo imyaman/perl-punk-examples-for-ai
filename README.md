@@ -92,6 +92,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 79 | 웹훅 재시도 + 디드레터 | `example-79/` |
 | 80 | multipart 파일 업로드 | `example-80/` |
 | 81 | CSV 대량 가져오기 | `example-81/` |
+| 82 | OAuth2 client_credentials | `example-82/` |
 
 ## Usage for AI
 
