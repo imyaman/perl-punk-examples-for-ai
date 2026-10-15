@@ -55,6 +55,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 42 | Method Override (`X-HTTP-Method-Override`) | `example-42/` |
 | 43 | Idempotency-Key | `example-43/` |
 | 44 | URL 단축 + 리다이렉트 | `example-44/` |
+| 45 | 파일 다운로드 | `example-45/` |
 
 ## Usage for AI
 
