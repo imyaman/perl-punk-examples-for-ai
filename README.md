@@ -69,6 +69,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 56 | 폐기 예정 고지 (Deprecation/Sunset) | `example-56/` |
 | 57 | 요청 ID (X-Request-Id) | `example-57/` |
 | 58 | Range 요청 (206/416) | `example-58/` |
+| 59 | 파일 기반 JSON 저장소 | `example-59/` |
 
 ## Usage for AI
 
