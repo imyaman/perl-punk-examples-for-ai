@@ -94,6 +94,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 81 | CSV 대량 가져오기 | `example-81/` |
 | 82 | OAuth2 client_credentials | `example-82/` |
 | 83 | HMAC 서명 요청 + 재전송 방지 | `example-83/` |
+| 84 | 작업 큐 + 워커 + 재시도 | `example-84/` |
 
 ## Usage for AI
 
