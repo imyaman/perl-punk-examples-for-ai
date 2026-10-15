@@ -53,6 +53,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 40 | JSONP | `example-40/` |
 | 41 | API Key 인증 | `example-41/` |
 | 42 | Method Override (`X-HTTP-Method-Override`) | `example-42/` |
+| 43 | Idempotency-Key | `example-43/` |
 
 ## Usage for AI
 
