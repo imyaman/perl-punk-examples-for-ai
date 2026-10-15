@@ -80,6 +80,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 67 | PUT 업서트 (201/200) | `example-67/` |
 | 68 | HEAD + 페이지네이션 메타 | `example-68/` |
 | 69 | 금액 계산 (정수 센트) | `example-69/` |
+| 70 | Cache-Control 정책 | `example-70/` |
 
 ## Usage for AI
 
