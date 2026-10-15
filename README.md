@@ -110,6 +110,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 97 | 롱폴링 | `example-97/` |
 | 98 | W3C traceparent 전파 | `example-98/` |
 | 99 | 기능 플래그 (비율 배포) | `example-99/` |
+| 100 | 자기서술 API (OpenAPI/스모크) | `example-100/` |
 
 ## Usage for AI
 
