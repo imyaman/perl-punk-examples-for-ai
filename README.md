@@ -68,6 +68,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 55 | Prefer 헤더 (minimal/representation) | `example-55/` |
 | 56 | 폐기 예정 고지 (Deprecation/Sunset) | `example-56/` |
 | 57 | 요청 ID (X-Request-Id) | `example-57/` |
+| 58 | Range 요청 (206/416) | `example-58/` |
 
 ## Usage for AI
 
