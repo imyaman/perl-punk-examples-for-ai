@@ -91,6 +91,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 78 | RBAC 역할 기반 접근 제어 | `example-78/` |
 | 79 | 웹훅 재시도 + 디드레터 | `example-79/` |
 | 80 | multipart 파일 업로드 | `example-80/` |
+| 81 | CSV 대량 가져오기 | `example-81/` |
 
 ## Usage for AI
 
