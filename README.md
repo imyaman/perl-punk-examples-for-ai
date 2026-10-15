@@ -83,6 +83,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 70 | Cache-Control 정책 | `example-70/` |
 | 71 | 슬러그 생성과 유일성 (409) | `example-71/` |
 | 72 | CSV 내보내기 | `example-72/` |
+| 73 | JWT (HS256) 발급/검증 | `example-73/` |
 
 ## Usage for AI
 
