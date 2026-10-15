@@ -86,6 +86,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 73 | JWT (HS256) 발급/검증 | `example-73/` |
 | 74 | 소프트 삭제와 복구 | `example-74/` |
 | 75 | 검색 + 자동완성 | `example-75/` |
+| 76 | 콘텐츠 주소 저장소 (SHA-256) | `example-76/` |
 
 ## Usage for AI
 
