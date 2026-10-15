@@ -88,6 +88,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 75 | 검색 + 자동완성 | `example-75/` |
 | 76 | 콘텐츠 주소 저장소 (SHA-256) | `example-76/` |
 | 77 | 구조화된 접근 로그 (JSONL) | `example-77/` |
+| 78 | RBAC 역할 기반 접근 제어 | `example-78/` |
 
 ## Usage for AI
 
