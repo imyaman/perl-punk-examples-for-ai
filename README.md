@@ -96,6 +96,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 83 | HMAC 서명 요청 + 재전송 방지 | `example-83/` |
 | 84 | 작업 큐 + 워커 + 재시도 | `example-84/` |
 | 85 | 역색인 전문 검색 | `example-85/` |
+| 86 | 분산 락 / 임대 + TTL | `example-86/` |
 
 ## Usage for AI
 
