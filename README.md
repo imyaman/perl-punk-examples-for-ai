@@ -87,6 +87,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 74 | 소프트 삭제와 복구 | `example-74/` |
 | 75 | 검색 + 자동완성 | `example-75/` |
 | 76 | 콘텐츠 주소 저장소 (SHA-256) | `example-76/` |
+| 77 | 구조화된 접근 로그 (JSONL) | `example-77/` |
 
 ## Usage for AI
 
