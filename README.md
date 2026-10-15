@@ -74,6 +74,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 61 | 웹훅 수신 (서명 검증/중복 제거) | `example-61/` |
 | 62 | Last-Modified / If-Modified-Since (304) | `example-62/` |
 | 63 | 헤더 기반 멀티테넌시 | `example-63/` |
+| 64 | 요청 본문 크기 제한 (413) | `example-64/` |
 
 ## Usage for AI
 
