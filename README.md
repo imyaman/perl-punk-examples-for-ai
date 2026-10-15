@@ -54,6 +54,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 41 | API Key 인증 | `example-41/` |
 | 42 | Method Override (`X-HTTP-Method-Override`) | `example-42/` |
 | 43 | Idempotency-Key | `example-43/` |
+| 44 | URL 단축 + 리다이렉트 | `example-44/` |
 
 ## Usage for AI
 
