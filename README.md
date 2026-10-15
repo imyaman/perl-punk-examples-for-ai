@@ -76,6 +76,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 63 | 헤더 기반 멀티테넌시 | `example-63/` |
 | 64 | 요청 본문 크기 제한 (413) | `example-64/` |
 | 65 | 서명된 만료 다운로드 링크 | `example-65/` |
+| 66 | Accept-Language 협상 (i18n) | `example-66/` |
 
 ## Usage for AI
 
