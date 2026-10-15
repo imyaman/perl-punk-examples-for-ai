@@ -106,6 +106,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 93 | 구조화된 에러 처리 + 상관관계 ID | `example-93/` |
 | 94 | 슬라이딩 윈도우 레이트 리밋 | `example-94/` |
 | 95 | 콘텐츠 협상 (JSON/CSV/텍스트) | `example-95/` |
+| 96 | 서킷 브레이커 | `example-96/` |
 
 ## Usage for AI
 
