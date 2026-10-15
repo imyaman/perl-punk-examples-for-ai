@@ -99,6 +99,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 86 | 분산 락 / 임대 + TTL | `example-86/` |
 | 87 | 그레이스풀 드레인 (readiness) | `example-87/` |
 | 88 | 시간창 피드 + 커서 페이지네이션 | `example-88/` |
+| 89 | 사용량 계량 + 쿼터 | `example-89/` |
 
 ## Usage for AI
 
