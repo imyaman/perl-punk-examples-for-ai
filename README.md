@@ -65,6 +65,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 52 | 커서 페이지네이션 | `example-52/` |
 | 53 | 낙관적 동시성 (If-Match) | `example-53/` |
 | 54 | Content-Type 검사 (415) | `example-54/` |
+| 55 | Prefer 헤더 (minimal/representation) | `example-55/` |
 
 ## Usage for AI
 
