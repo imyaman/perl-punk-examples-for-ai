@@ -103,6 +103,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 90 | 멱등성 키 (Idempotency-Key) | `example-90/` |
 | 91 | 중첩 하위 리소스 (주문/항목) | `example-91/` |
 | 92 | 경로 기반 API 버전관리 | `example-92/` |
+| 93 | 구조화된 에러 처리 + 상관관계 ID | `example-93/` |
 
 ## Usage for AI
 
