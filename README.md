@@ -63,6 +63,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 50 | JSON Merge Patch (RFC 7396) | `example-50/` |
 | 51 | 입력 검증 (422) | `example-51/` |
 | 52 | 커서 페이지네이션 | `example-52/` |
+| 53 | 낙관적 동시성 (If-Match) | `example-53/` |
 
 ## Usage for AI
 
