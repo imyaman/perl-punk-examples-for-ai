@@ -71,6 +71,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 58 | Range 요청 (206/416) | `example-58/` |
 | 59 | 파일 기반 JSON 저장소 | `example-59/` |
 | 60 | 지표 노출 (/metrics) | `example-60/` |
+| 61 | 웹훅 수신 (서명 검증/중복 제거) | `example-61/` |
 
 ## Usage for AI
 
