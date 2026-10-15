@@ -56,6 +56,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 43 | Idempotency-Key | `example-43/` |
 | 44 | URL 단축 + 리다이렉트 | `example-44/` |
 | 45 | 파일 다운로드 | `example-45/` |
+| 46 | 원시 바이트 응답 (이미지) | `example-46/` |
 
 ## Usage for AI
 
