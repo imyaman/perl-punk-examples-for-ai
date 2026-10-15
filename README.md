@@ -16,6 +16,43 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 3 | Error handling & HTTP status codes | `example-3/` |
 | 4 | Auth: API key + JWT (mock) | `example-4/` |
 | 5 | File upload (multipart/form-data) | `example-5/` |
+| 6 | Route captures: `:param` and `*splat` | `example-6/` |
+| 7 | HTTP methods: get/post/put/patch/del/any | `example-7/` |
+| 8 | `under` scopes / prefix routing | `example-8/` |
+| 9 | `under` guard (auth short-circuit) | `example-9/` |
+| 10 | `mount` a raw PSGI sub-app | `example-10/` |
+| 11 | Hooks: `before_dispatch` / `after_dispatch` | `example-11/` |
+| 12 | `middleware` (PSGI wrapper) | `example-12/` |
+| 13 | `on_error` custom error handler | `example-13/` |
+| 14 | `helper` custom context method | `example-14/` |
+| 15 | `plugin` (reusable feature bundle) | `example-15/` |
+| 16 | Signed-cookie `session` (login/logout) | `example-16/` |
+| 17 | Single-use CSRF tokens | `example-17/` |
+| 18 | CORS | `example-18/` |
+| 19 | Bearer-token auth (pure-Perl guard) | `example-19/` |
+| 20 | HTTP Basic auth | `example-20/` |
+| 21 | HMAC-SHA256 webhook signature | `example-21/` |
+| 22 | `ua` outbound HTTP calls | `example-22/` |
+| 23 | `static` file serving | `example-23/` |
+| 24 | `markdown` docs site | `example-24/` |
+| 25 | `views` + `render` (Stencil) | `example-25/` |
+| 26 | Async: `timer` / `after` / `promise` / `await` | `example-26/` |
+| 27 | Server-Sent Events (`sse`) | `example-27/` |
+| 28 | WebSocket echo | `example-28/` |
+| 29 | WebSocket room broadcast | `example-29/` |
+| 30 | Cookies (set/read/clear) | `example-30/` |
+| 31 | Content negotiation (`Accept`) | `example-31/` |
+| 32 | ETag / conditional GET (304) | `example-32/` |
+| 33 | Redirect status codes | `example-33/` |
+| 34 | Pagination + `Link` header | `example-34/` |
+| 35 | Sorting & filtering | `example-35/` |
+| 36 | Sparse fieldsets | `example-36/` |
+| 37 | HEAD & OPTIONS | `example-37/` |
+| 38 | Problem Details (RFC 7807) | `example-38/` |
+| 39 | REST CRUD + 201/204 | `example-39/` |
+| 40 | JSONP | `example-40/` |
+| 41 | API Key 인증 | `example-41/` |
+| 42 | Method Override (`X-HTTP-Method-Override`) | `example-42/` |
 
 ## Usage for AI
 
