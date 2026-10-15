@@ -85,6 +85,7 @@ topic at a time (routing, params, errors, auth, uploads, ...).
 | 72 | CSV 내보내기 | `example-72/` |
 | 73 | JWT (HS256) 발급/검증 | `example-73/` |
 | 74 | 소프트 삭제와 복구 | `example-74/` |
+| 75 | 검색 + 자동완성 | `example-75/` |
 
 ## Usage for AI
 
